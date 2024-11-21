@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		00857F3D2CEFDD820004D675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00857F1D2CEFDD800004D675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00857F242CEFDD800004D675;
+			remoteInfo = NuTrack_iOS;
+		};
+		00857F472CEFDD820004D675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00857F1D2CEFDD800004D675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00857F242CEFDD800004D675;
+			remoteInfo = NuTrack_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00857F252CEFDD800004D675 /* NuTrack_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuTrack_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00857F3C2CEFDD820004D675 /* NuTrack_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuTrack_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00857F462CEFDD820004D675 /* NuTrack_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuTrack_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		00857F4E2CEFDD820004D675 /* Exceptions for "NuTrack_iOS" folder in "NuTrack_iOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 00857F242CEFDD800004D675 /* NuTrack_iOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		00857F272CEFDD800004D675 /* NuTrack_iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				00857F4E2CEFDD820004D675 /* Exceptions for "NuTrack_iOS" folder in "NuTrack_iOS" target */,
+			);
+			path = NuTrack_iOS;
+			sourceTree = "<group>";
+		};
+		00857F3F2CEFDD820004D675 /* NuTrack_iOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NuTrack_iOSTests;
+			sourceTree = "<group>";
+		};
+		00857F492CEFDD820004D675 /* NuTrack_iOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NuTrack_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00857F222CEFDD800004D675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00857F392CEFDD820004D675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00857F432CEFDD820004D675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00857F1C2CEFDD800004D675 = {
+			isa = PBXGroup;
+			children = (
+				00857F272CEFDD800004D675 /* NuTrack_iOS */,
+				00857F3F2CEFDD820004D675 /* NuTrack_iOSTests */,
+				00857F492CEFDD820004D675 /* NuTrack_iOSUITests */,
+				00857F262CEFDD800004D675 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00857F262CEFDD800004D675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00857F252CEFDD800004D675 /* NuTrack_iOS.app */,
+				00857F3C2CEFDD820004D675 /* NuTrack_iOSTests.xctest */,
+				00857F462CEFDD820004D675 /* NuTrack_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00857F242CEFDD800004D675 /* NuTrack_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00857F4F2CEFDD820004D675 /* Build configuration list for PBXNativeTarget "NuTrack_iOS" */;
+			buildPhases = (
+				00857F212CEFDD800004D675 /* Sources */,
+				00857F222CEFDD800004D675 /* Frameworks */,
+				00857F232CEFDD800004D675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				00857F272CEFDD800004D675 /* NuTrack_iOS */,
+			);
+			name = NuTrack_iOS;
+			packageProductDependencies = (
+			);
+			productName = NuTrack_iOS;
+			productReference = 00857F252CEFDD800004D675 /* NuTrack_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00857F3B2CEFDD820004D675 /* NuTrack_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00857F542CEFDD820004D675 /* Build configuration list for PBXNativeTarget "NuTrack_iOSTests" */;
+			buildPhases = (
+				00857F382CEFDD820004D675 /* Sources */,
+				00857F392CEFDD820004D675 /* Frameworks */,
+				00857F3A2CEFDD820004D675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00857F3E2CEFDD820004D675 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				00857F3F2CEFDD820004D675 /* NuTrack_iOSTests */,
+			);
+			name = NuTrack_iOSTests;
+			packageProductDependencies = (
+			);
+			productName = NuTrack_iOSTests;
+			productReference = 00857F3C2CEFDD820004D675 /* NuTrack_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00857F452CEFDD820004D675 /* NuTrack_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00857F572CEFDD820004D675 /* Build configuration list for PBXNativeTarget "NuTrack_iOSUITests" */;
+			buildPhases = (
+				00857F422CEFDD820004D675 /* Sources */,
+				00857F432CEFDD820004D675 /* Frameworks */,
+				00857F442CEFDD820004D675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00857F482CEFDD820004D675 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				00857F492CEFDD820004D675 /* NuTrack_iOSUITests */,
+			);
+			name = NuTrack_iOSUITests;
+			packageProductDependencies = (
+			);
+			productName = NuTrack_iOSUITests;
+			productReference = 00857F462CEFDD820004D675 /* NuTrack_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00857F1D2CEFDD800004D675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					00857F242CEFDD800004D675 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					00857F3B2CEFDD820004D675 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 00857F242CEFDD800004D675;
+					};
+					00857F452CEFDD820004D675 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 00857F242CEFDD800004D675;
+					};
+				};
+			};
+			buildConfigurationList = 00857F202CEFDD800004D675 /* Build configuration list for PBXProject "NuTrack_iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00857F1C2CEFDD800004D675;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 00857F262CEFDD800004D675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00857F242CEFDD800004D675 /* NuTrack_iOS */,
+				00857F3B2CEFDD820004D675 /* NuTrack_iOSTests */,
+				00857F452CEFDD820004D675 /* NuTrack_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00857F232CEFDD800004D675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00857F3A2CEFDD820004D675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00857F442CEFDD820004D675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00857F212CEFDD800004D675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00857F382CEFDD820004D675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00857F422CEFDD820004D675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00857F3E2CEFDD820004D675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00857F242CEFDD800004D675 /* NuTrack_iOS */;
+			targetProxy = 00857F3D2CEFDD820004D675 /* PBXContainerItemProxy */;
+		};
+		00857F482CEFDD820004D675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00857F242CEFDD800004D675 /* NuTrack_iOS */;
+			targetProxy = 00857F472CEFDD820004D675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00857F502CEFDD820004D675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NuTrack_iOS/NuTrack_iOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NuTrack_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = W4C3V9Z2N4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NuTrack_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NuTrack.NuTrack-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00857F512CEFDD820004D675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NuTrack_iOS/NuTrack_iOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NuTrack_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = W4C3V9Z2N4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NuTrack_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NuTrack.NuTrack-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00857F522CEFDD820004D675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00857F532CEFDD820004D675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00857F552CEFDD820004D675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4C3V9Z2N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NuTrack.NuTrack-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuTrack_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NuTrack_iOS";
+			};
+			name = Debug;
+		};
+		00857F562CEFDD820004D675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4C3V9Z2N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NuTrack.NuTrack-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuTrack_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NuTrack_iOS";
+			};
+			name = Release;
+		};
+		00857F582CEFDD820004D675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4C3V9Z2N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NuTrack.NuTrack-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NuTrack_iOS;
+			};
+			name = Debug;
+		};
+		00857F592CEFDD820004D675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4C3V9Z2N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NuTrack.NuTrack-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NuTrack_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00857F202CEFDD800004D675 /* Build configuration list for PBXProject "NuTrack_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00857F522CEFDD820004D675 /* Debug */,
+				00857F532CEFDD820004D675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00857F4F2CEFDD820004D675 /* Build configuration list for PBXNativeTarget "NuTrack_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00857F502CEFDD820004D675 /* Debug */,
+				00857F512CEFDD820004D675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00857F542CEFDD820004D675 /* Build configuration list for PBXNativeTarget "NuTrack_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00857F552CEFDD820004D675 /* Debug */,
+				00857F562CEFDD820004D675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00857F572CEFDD820004D675 /* Build configuration list for PBXNativeTarget "NuTrack_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00857F582CEFDD820004D675 /* Debug */,
+				00857F592CEFDD820004D675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00857F1D2CEFDD800004D675 /* Project object */;
+}
